@@ -1,0 +1,16 @@
+@import '../../../styles/vars.css';
+
+.menu-container {
+    display: block;
+}
+
+.menu-icon {
+  font-size: 20px;
+  color: var(--white-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-container {
+    display: none;
+  }
+}

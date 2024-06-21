@@ -1,0 +1,23 @@
+@import '../../../styles/vars.css';
+
+.overlay-container {
+    background-color: var(--dark-purple);
+    width: 100%;
+    max-width: 425px;
+    position: fixed;
+    top: 60px;
+    left: -425px;
+    bottom: 0;
+    z-index: 10;
+    transition: left .2s linear;
+}
+
+.overlay-container--active {
+    left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .overlay-container {
+      display: none;
+    }
+}

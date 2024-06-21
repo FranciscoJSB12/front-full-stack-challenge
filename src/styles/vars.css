@@ -3,4 +3,10 @@
     --dark-purple: #303141;
     --white-color: #fdfdfd;
     --light-gray: #757580;
+    --light-green: #37DA97;
+
+    
+    --text-sm: 1rem;
+    --text-sm: 1.2rem;
+    --text-md: 1.4rem;
 }

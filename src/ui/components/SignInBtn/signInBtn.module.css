@@ -1,0 +1,12 @@
+@import '../../../styles/vars.css';
+
+.sign-in-btn {
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: var(--light-green);
+    display: inline-block;
+    font-weight: 500;
+    font-size: var(--text-xsm);
+    color: var(--dark-purple);
+    cursor: pointer;
+}

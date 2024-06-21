@@ -1,12 +1,15 @@
 @import '../../../styles/vars.css';
 
-.navbar {
-    height: 65px;
-    padding: 0 12px;
-    border-bottom: 2px solid var(--light-purple);
-    background-color: var(--dark-purple);
+.navbar, .blocks-container, .blocks-inner-container {
     display: flex;
     align-items: center;
+}
+
+.navbar {
+    height: 60px;
+    padding: 4px 20px 0;
+    border-bottom: 2px solid var(--light-purple);
+    background-color: var(--dark-purple);
     position: fixed;
     top: 0;
     left: 0;
@@ -16,8 +19,11 @@
 
 .blocks-container {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between; 
+}
+
+.blocks-inner-container {
+    gap: 20px;
 }
 

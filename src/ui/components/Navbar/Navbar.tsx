@@ -1,11 +1,11 @@
 import { useState, useCallback } from 'react';
-import { BurgerMenu } from '../BurgerMenu';
-import { MenuOverlay } from '../MenuOverlay';
-import { NavbarItems } from '../NavbarItems';
-import { NavbarLogo } from '../NavbarLogo';
-import { SignInBtn } from '../SignInBtn';
-import { MenuItem } from '../MenuItem';
-import { ShoppingCart } from '../ShoppingCart';
+import { BurgerMenu } from './BurgerMenu';
+import { MenuOverlay } from './MenuOverlay';
+import { NavbarItems } from './NavbarItems';
+import { NavbarLogo } from './NavbarLogo';
+import { SignInBtn } from './SignInBtn';
+import { MenuItem } from './MenuItem';
+import { ShoppingCart } from './ShoppingCart';
 import { NAVLINKS } from '../../../constants/navlinks';
 import styles from './navbar.module.css';
 

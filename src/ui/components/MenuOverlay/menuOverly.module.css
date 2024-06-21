@@ -1,12 +1,13 @@
 @import '../../../styles/vars.css';
 
 .overlay-container {
+    list-style: none;
     background-color: var(--dark-purple);
     width: 100%;
-    max-width: 425px;
+    max-width: 380px;
     position: fixed;
     top: 60px;
-    left: -425px;
+    left: -380px;
     bottom: 0;
     z-index: 10;
     transition: left .2s linear;
@@ -16,7 +17,7 @@
     left: 0;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     .overlay-container {
       display: none;
     }

@@ -1,5 +1,10 @@
+import { ReactNode } from 'react';
 import styles from './navbarItems.module.css';
 
-export const NavbarItems = () => {
-  return <div className={styles['items-container']}></div>;
+interface Props {
+  children: ReactNode;
+}
+
+export const NavbarItems = ({ children }: Props) => {
+  return <ul className={styles['items-container']}>{children}</ul>;
 };

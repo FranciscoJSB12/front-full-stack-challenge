@@ -1,0 +1,41 @@
+@import '../../../styles/vars.css';
+
+.overly-item-text, .item-text {
+    color: var(--white-color);
+    text-transform: uppercase;
+    display: flex;
+}
+
+.overly-item {
+    padding: 20px;
+    border-bottom: 2px solid var(--light-purple);
+    cursor: pointer;
+}
+
+.overly-item-text {
+    font-size: var(--text-sm);
+    justify-content: space-between;
+}
+
+.item {
+    display: none;
+    padding: 0 8px;
+}
+
+.item-text {
+    font-size: var(--text-xsm);
+    font-weight: 500;
+    gap: 2px;
+}
+
+.item-icon {
+    font-size: var(--text-sm);
+    color: var(--white-color);
+}
+
+@media only screen and (min-width: 1024px) {
+    .item {
+      display: block;
+    }
+  }
+

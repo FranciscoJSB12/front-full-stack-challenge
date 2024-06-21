@@ -1,4 +1,4 @@
-const NAVLINKS = [
+export const NAVLINKS = [
     {
         name: 'Currency',
     },

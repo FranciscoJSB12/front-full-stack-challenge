@@ -1,6 +1,10 @@
 @import '../../../styles/vars.css';
 
-.navbar, .blocks-container, .blocks-inner-container {
+.navbar, 
+.blocks-container, 
+.blocks-inner-container-left, 
+.blocks-inner-container-right, 
+.most-inner-container {
     display: flex;
     align-items: center;
 }
@@ -23,7 +27,14 @@
     justify-content: space-between; 
 }
 
-.blocks-inner-container {
+.blocks-inner-container-left {
     gap: 20px;
+}
+
+.most-inner-container {
+    gap: 36px;
+    margin-right: 28px;
+    padding-top: 6px;
+    list-style: none;
 }
 

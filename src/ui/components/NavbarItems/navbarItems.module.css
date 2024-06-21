@@ -1,9 +1,14 @@
+@import '../../../styles/vars.css';
+
 .items-container {
     display: none;
+    list-style: none;
+    padding-top: 6px;
+    padding-left: 12px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .items-container {
-    display: block;
+    display: flex;
   }
 }

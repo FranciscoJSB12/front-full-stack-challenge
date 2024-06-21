@@ -1,15 +1,19 @@
+import { ReactNode } from 'react';
 import styles from './menuOverly.module.css';
 
 interface Props {
   isOverlayMenuOpen: boolean;
+  children: ReactNode;
 }
 
-export const MenuOverlay = ({ isOverlayMenuOpen }: Props) => {
+export const MenuOverlay = ({ isOverlayMenuOpen, children }: Props) => {
   return (
-    <div
+    <ul
       className={`${styles['overlay-container']} ${
         isOverlayMenuOpen ? styles['overlay-container--active'] : ''
       }`}
-    ></div>
+    >
+      {children}
+    </ul>
   );
 };

@@ -1,0 +1,71 @@
+@import '../../../styles/vars.css';
+
+.option, .select-text {
+    color: var(--white-color);
+}
+
+.select-menu {
+    width: 280px;
+    cursor: pointer;
+    position: relative;
+}
+
+.select {
+    background-color: rgba(75, 77, 99, 0.7);
+    padding: 14px;
+    font-weight: 500;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select-text {
+    position: relative;
+    left: 12px;
+    bottom: 2px;
+}
+
+.options-list {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(75, 77, 99, 0.7);
+    border-radius: 3px;
+    margin-top: 4px;
+    padding: 0 20px;
+    max-height: 120px;
+    overflow-y: auto;
+    height: 0;
+}
+
+.option {
+    padding: 8px 0;
+    font-weight: 500;
+    transition: .3s ease-in-out;
+}
+
+.option:hover {
+    color: var(--light-green);
+}
+
+.options-list::-webkit-scrollbar {
+    width: 4px;
+    background-color: #eee;
+}
+
+.options-list::-webkit-scrollbar-thumb {
+    background-color: var(--light-green);
+}
+
+.options-list--active {
+    height: fit-content;
+}
+
+.select-arrow, .select-sword {
+    font-size: var(--text-sm);
+    color: var(--white-color);
+}
+
+.select-arrow--rotated {
+    transform: rotate(180deg);
+}

@@ -1,9 +1,12 @@
 import { Layout } from '../../../ui/components';
+import { GameSelector } from '../../components';
 
 export const HomePage = () => {
   return (
     <Layout>
-      <h1>Hola</h1>
+      <div>
+        <GameSelector />
+      </div>
     </Layout>
   );
 };

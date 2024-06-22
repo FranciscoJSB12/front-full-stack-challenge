@@ -4,7 +4,7 @@ export const NavbarLogo = () => {
   return (
     <figure>
       <img
-        src='/src/assets/chicks-gold-logo.png'
+        src='/assets/chicks-gold-logo.png'
         alt='Chicks Gold Logo'
         className={styles['logo']}
       />

@@ -1,6 +1,5 @@
 import { Layout } from '../../../ui/components';
-import { GameSelector } from '../../components';
-import { SearchInput } from '../../components/SearchInput';
+import { GameSelector, SearchInput, CardItem } from '../../components';
 import styles from './homePage.module.css';
 
 export const HomePage = () => {
@@ -11,6 +10,9 @@ export const HomePage = () => {
         <div className={styles['inputs-container']}>
           <GameSelector />
           <SearchInput />
+        </div>
+        <div>
+          <CardItem />
         </div>
       </div>
     </Layout>

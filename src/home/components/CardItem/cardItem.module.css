@@ -1,0 +1,82 @@
+@import '../../../styles/vars.css';
+
+.character-name, .price, .amount-input, .on-sale-text, .description {
+    color: var(--white-color);
+}
+
+.on-sale-text, .in-stock-text {
+    font-size: 0.85rem;
+}
+
+.container {
+    margin-top: 40px;
+    width: 180px;
+    height: 240px;
+    background-color: #2e3346;
+    padding: 16px;
+    border-radius: 3px;
+}
+
+.header {
+    position: relative;
+}
+
+.green-ball {
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: var(--light-green);
+    position: relative;
+    bottom: 2px;
+}
+
+.on-sale-text {
+    font-weight: 500;
+}
+
+.in-stock-text {
+    margin-top: 6px;
+    border: 1px solid #29835e;
+    width: fit-content;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #29835e;
+}
+
+.amount-input {
+    width: 50px;
+    border: none;
+    outline: none;
+    padding: 8px 6px;
+    background-color: #343c53;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.image {
+    height: 60px;
+    width: 60px;
+    border-radius: 3px;
+    margin-top: 16px;
+    object-fit: cover;
+}
+
+.character-name {
+    font-size: var(--text-xsm);
+    font-weight: 400;
+}
+
+.price {
+    margin: 6px 0;
+    font-size: var(0.9rem);
+    font-weight: 500;
+}
+
+.old-amount {
+    font-weight: 400;
+    text-decoration: line-through;
+    text-decoration-color: red;
+}

@@ -5,7 +5,7 @@
 
 .main {
     padding-top: 60px;
-    background-image: url('../../../assets/background-image.jpg');
+    background-image: url('/assets/background-image.jpg');
     background-size: 100% 100vh;
     background-repeat: no-repeat;
     background-position: top center;

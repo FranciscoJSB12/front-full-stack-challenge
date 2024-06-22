@@ -27,3 +27,9 @@ The following tecnologies were used to created this project:
 4. Run `npm run preview`.
 5. Check the address that your terminal displays and paste in your browser.
 6. You will also see a folder called `dist`, this is the placa where you can find the production build to deploy
+
+### Proyect deployment
+
+```
+https://wondrous-souffle-72e775.netlify.app/
+```
